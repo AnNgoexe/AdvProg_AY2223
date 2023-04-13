@@ -25,7 +25,7 @@ void Painter::jumpForward(int numPixel)
     // TODO: jump the painter forward
     float rad = (angle / 180) * M_PI;
     x += cos(rad) * numPixel;
-    y -= sin(rad) * numPixel;
+     y -= sin(rad) * numPixel;
 }
 
 
