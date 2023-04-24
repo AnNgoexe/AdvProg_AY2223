@@ -16,7 +16,6 @@ using std:: endl;
 int main(int argc, char* argv[])
 {
 	srand(time(NULL));
-	
 	int figNumber = 0;
 	if (argc == 2) figNumber = atoi(argv[1]) % 15;
 	SDL_Window *window;
